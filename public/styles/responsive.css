@@ -1,0 +1,160 @@
+@media(min-width: 1700px){
+    #page-home{
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-width: 900px){
+    #page-home{
+        background-position-x: 70vw;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-search-results header,
+    #page-create-point header,
+    #page-home header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #page-search-results header a,
+    #page-create-point header a,
+    #page-home header a{
+        margin-top: 60px;
+    }
+
+    #page-home main{
+        margin: 50px 0 60px;
+        align-items: center;
+    }
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 200px;
+    }
+
+    footer{
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 850px){
+    #page-create-point .field-group{
+        display: grid;
+    }
+
+    #page-create-point .field-group .field + .field{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 650px){
+    #page-create-point .items-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-create-point div#button{
+        text-align: center;
+    }
+    
+    #page-create-point .field-group{
+        display: grid;
+    }
+
+    #page-create-point .field-group .field + .field{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 450px){
+    #page-home main h1{
+        font-size: 34px;
+    }
+
+    #page-home main p{
+        font-size: 24px;
+    }
+
+    #page-create-point fieldset div.items-grid{
+        grid-template-columns: 1fr;
+    }
+
+    #page-create-point div#button button{
+        width: 210px;
+        height: 56px;  
+        
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 350px){
+    #page-home main h1{
+        font-size: 24px;
+    }
+
+    #page-home main p{
+        font-size: 15px;
+    }
+
+    #page-home #modal{
+        width: 200px;
+    }
+}
+
+@media(max-height: 760px){
+    #page-home{
+        background-position-y: 200px;
+    }
+}
+
+/* @media (max-width: 900px){
+    #page-home{
+        background-position-x: -10vw;
+        background-position-y: 80vw;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: 48%;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main{
+        margin-top: -70%;
+        align-items: center;
+    }
+
+
+    #page-create-point .field-group{
+        display: grid;
+    }
+
+    #page-create-point .field-group .field + .field{
+        margin-left: 0px;
+    }
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 200px;
+    }
+
+}  */
