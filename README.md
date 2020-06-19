@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./icons/logo.svg" width="250px" /><br>
+  <img src="./public/assets/logo.svg" width="250px" /><br>
       <br>
     <b>Recicle! O meio ambiente agradece! ♻️</b> 
 </h1>
